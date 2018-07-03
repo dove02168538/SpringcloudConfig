@@ -6,7 +6,10 @@ spring:
     username: root
     password: 123456
     url: jdbc:mysql://localhost:3306/springcloud?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&useSSL=false
+  rabbitmq:
+    host: localhost
+    port: 5672
   jpa:
     show-sql: true
-evn:
+env:
   dev
